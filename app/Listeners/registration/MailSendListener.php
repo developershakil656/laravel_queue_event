@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Mail;
 
 class MailSendListener implements ShouldQueue
 {
-   
+    public int $delay = 1;
     /**
      * Create the event listener.
      *
